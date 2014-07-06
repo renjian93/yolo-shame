@@ -9,6 +9,7 @@ public class FizzBuzzTest{
 		assertEquals("Fizz",app.say(3));
 		assertEquals("Buzz",app.say(5));
 		assertEquals("FizzBuzz",app.say(15));
+		assertEquals("Fizz",app.say(42));
 		System.out.println("Test result "+(testResult ?"SUCCESS":"FAIL"));
 	}
 
